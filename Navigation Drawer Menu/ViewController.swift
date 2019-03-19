@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         menuViewUIView.isHidden = true
+        
     }
 
     @IBAction func menuButtonUIButton(_ sender: Any) {
@@ -28,6 +29,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func logOutUIButton(_ sender: Any) {
+        
     }
     
 }
