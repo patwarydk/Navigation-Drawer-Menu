@@ -10,11 +10,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var menuViewUIView: UIView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        menuViewUIView.isHidden = true
     }
 
-
+    @IBAction func menuButtonUIButton(_ sender: Any) {
+        if menuViewUIView.isHidden != true{
+            menuViewUIView.isHidden = true
+        }else {
+            menuViewUIView.isHidden = false
+        }
+    }
+    
+    @IBAction func logOutUIButton(_ sender: Any) {
+    }
+    
 }
 
